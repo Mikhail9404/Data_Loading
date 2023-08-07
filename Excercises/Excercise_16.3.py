@@ -8,6 +8,8 @@ filename_3 = '../data/san_francisco_2018_simple.csv'
 
 current_date = range(1, 364)
 
+
+
 with open(filename_1) as f:
     reader = csv.reader(f)
     header_row = next(reader)
